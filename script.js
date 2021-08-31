@@ -7,10 +7,11 @@ const clear = document.querySelector(".clear");
 const deleteBtn = document.querySelector("#delete-btn");
 
 let displayValue = "0";
-
 let num1 = " ";
 let num2 = " ";
 let operator = " ";
+
+display.innerText = "0";
 
 nums.forEach(function (num) {
   num.addEventListener("click", function (e) {
