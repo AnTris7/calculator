@@ -77,10 +77,15 @@ clear.addEventListener("click", function () {
 
 deleteBtn.addEventListener("click", function () {
   display.innerText = display.innerText.slice(0, -1);
+
   if (num1 !== " ") {
     num1 = " ";
   } else if (num2 !== " ") {
     num2 = " ";
+  }
+
+  if (operator !== " ") {
+    operator = " ";
   }
 });
 
